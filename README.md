@@ -6,13 +6,18 @@
 
 
 
-**Keep Updating**
+**Content(Keep Updating)**
 
 <hr/>
 
-1. 杂谈
+系列1：杂谈
 
-2. 线性回归
+系列2：线性回归（linear model）
 
-3. 线性分类器
-   - 感知机
+系列3：线性分类器（linear classifier）
+
+- 感知机（perceptron）
+
+系列4：非线性分类器（non-linear classifier）
+
+- k近邻（KNN）
