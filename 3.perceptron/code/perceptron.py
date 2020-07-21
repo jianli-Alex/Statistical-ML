@@ -108,8 +108,7 @@ class perceptron_dual(object):
         # 通过beta计算出w
         self.w = ((self.beta * y).reshape(-1, 1) * X).sum(axis = 0) 
         print(f"fit perceptron_dual(alpha = {self.alpha}, total_iter_epoch = {min(self.max_iter_epoch, iter_epoch)})")
-            
-        
+              
     def predict(self, X):
         """
         功能：模型预测
@@ -250,8 +249,7 @@ class perceptron_ovo(object):
         # 返回某个实例投票后的结果
         y_predict = y_count[0][max_index]
         
-        return y_predict
-        
+        return y_predict  
                       
     def predict(self, X):
         """
